@@ -35,5 +35,8 @@ git config credencial.helper store
 git remote add origin ''
 git remote -v
 
+git push -u origin master
+# only first and with a min branch to MASTER , flow
+
 # Managed
 git checkout [hash] -- file.ex
