@@ -1,0 +1,39 @@
+# Git
+git init
+
+# Marcacoes
+git add file.extension
+git add dir
+git add .
+
+# Compactar e Metadatas (Stage)
+git commit -m "text description"
+
+# Show in console map marks with hash
+git log
+git show 		 # (last)
+
+# Status of the git local
+git status
+
+# Fork struture .git
+git branch ''
+git branch 			# rr getList
+git checkout 'name_branch' 	# go branch
+git branch -D ''		# clean		
+
+# Fusion --remote fetch/branch/pull.
+git merge 'name_branch'
+
+# Config git and Credenciais
+git config --list
+git config --local user.name ''
+git config --local user.email ''
+git config credencial.helper store
+
+# remote stage
+git remote add origin ''
+git remote -v
+
+# Managed
+git checkout [hash] -- file.ex
