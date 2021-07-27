@@ -1,12 +1,12 @@
 # Git
 git init
 
-# Marcacoes
+# Marcacoes sobre as alterações
 git add file.extension
 git add dir
 git add .
 
-# Compactar e Metadatas (Stage)
+# Empacota e atribui as Metadatas (Stage - Hash do SHA1)
 git commit -m "text description"
 
 # Show in console map marks with hash
